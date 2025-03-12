@@ -1,4 +1,7 @@
-Getting started with a Django project
+This is a news website dedicated to remarkable women, built using Django, CSS, HTML, Bootstrap, Jinja2, and SQLite. Users can register and, after authentication, create and publish posts about famous women. The website features different categories, allowing users to browse posts by specific topics. Additionally, pagination is implemented to ensure a smooth and organized browsing experience.
+
+
+Getting started :
 
 1. Cloning a repository: Clone the repository to your computer using Git:
 https://github.com/Maaksym/Django.git
