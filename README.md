@@ -1,41 +1,49 @@
 This is a news website dedicated to remarkable women, built using Django, CSS, HTML, Bootstrap, Jinja2, and SQLite. Users can register and, after authentication, create and publish posts about famous women. The website features different categories, allowing users to browse posts by specific topics. Additionally, pagination is implemented to ensure a smooth and organized browsing experience.
 
 
-Getting started :
+## Getting Started
 
-1. Cloning a repository: Clone the repository to your computer using Git:
-https://github.com/Maaksym/Django.git
+### 1. Clone the repository
+git clone https://github.com/Maaksym/Django.git
 
-2. Go to the project directory: Navigate to the project folder:
-cd fsait
+### 2. Navigate to the project directory
+cd Django
 
-3. Create and activate a virtual environment: Create a new virtual environment (if not already created):
+### 3. Create and activate a virtual environment
 python -m venv venv
 
-Activate it
-For Windows:
+Windows:
 venv\Scripts\activate
 
-For macOS/Linux:
+macOS/Linux:
 source venv/bin/activate
 
-4. Setting dependencies: Install all dependencies specified in requirements.txt:
+### 4. Install dependencies
 pip install -r requirements.txt
 
-5. Setting up the database: Perform migrations to customize your database:
+### 5. Set up environment variables
+
+Create a .env file in the root directory and add:
+
+SECRET_KEY=your-secret-key
+DEBUG=True
+
+EMAIL_HOST_USER=your-email@gmail.com
+EMAIL_HOST_PASSWORD=your-email-password
+
+### 6. Apply migrations
 python manage.py migrate
 
-6. Creating a superuser: If you want to create a superuser to access the Django admin:
+### 7. Create a superuser (optional)
 python manage.py createsuperuser
 
-Enter the username, email, and password for the superuser.
-
-7. Start the server: Start the local Django server:
+### 8. Run the server
 python manage.py runserver
 
-8. Access to the project: Go to http://127.0.0.1:8000/ in your browser to see the live site.
+### 9. Open in browser
 
-To access the admin panel: http://127.0.0.1:8000/admin/, using superuser data.
+Main page:
+http://127.0.0.1:8000/
 
-
-
+Admin panel:
+http://127.0.0.1:8000/admin/
