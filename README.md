@@ -48,3 +48,40 @@ http://127.0.0.1:8000/
 
 Admin panel:
 http://127.0.0.1:8000/admin/
+
+
+---
+
+## Additional Setup (Categories)
+
+Before adding articles, you need to create at least one category.
+
+### How to do it:
+
+## Creating a Superuser
+
+To access the Django admin panel, you need to create a superuser.
+
+Run the following command:
+python manage.py createsuperuser
+
+1. Go to the admin panel:
+http://127.0.0.1:8000/admin/
+
+2. Log in using your superuser account
+
+3. Open the **Categories** section
+
+4. Click **Add Category**
+
+5. Fill in the fields:
+- Name (e.g. Actress)
+- Slug (e.g. actress)
+
+6. Click **Save**
+
+---
+
+### Important
+
+If no categories are created, you will not be able to select a category when adding a new article.
